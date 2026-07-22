@@ -1,9 +1,14 @@
 README.md
 pyproject.toml
 src/bank_customer_segmentation/__init__.py
+src/bank_customer_segmentation/analysis.py
+src/bank_customer_segmentation/clustering.py
 src/bank_customer_segmentation/config.py
+src/bank_customer_segmentation/dashboard.py
 src/bank_customer_segmentation/data.py
+src/bank_customer_segmentation/database.py
 src/bank_customer_segmentation/features.py
+src/bank_customer_segmentation/statistics.py
 src/bank_customer_segmentation/utils.py
 src/bank_customer_segmentation/validation.py
 src/bank_customer_segmentation.egg-info/PKG-INFO
@@ -11,6 +16,11 @@ src/bank_customer_segmentation.egg-info/SOURCES.txt
 src/bank_customer_segmentation.egg-info/dependency_links.txt
 src/bank_customer_segmentation.egg-info/requires.txt
 src/bank_customer_segmentation.egg-info/top_level.txt
+tests/test_analysis.py
+tests/test_clustering.py
+tests/test_dashboard.py
 tests/test_data.py
+tests/test_database.py
 tests/test_features.py
+tests/test_statistics.py
 tests/test_validation.py

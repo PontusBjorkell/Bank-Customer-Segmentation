@@ -1,11 +1,18 @@
 Metadata-Version: 2.4
 Name: bank-customer-segmentation
-Version: 0.1.0
+Version: 0.3.0
 Summary: End-to-end bank customer analytics and segmentation project
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
 Requires-Dist: pandas<3.0,>=2.2
 Requires-Dist: numpy<3.0,>=1.26
+Requires-Dist: scikit-learn<2.0,>=1.5
+Requires-Dist: scipy<2.0,>=1.13
+Requires-Dist: joblib<2.0,>=1.4
+Requires-Dist: matplotlib<4.0,>=3.9
+Requires-Dist: streamlit<2.0,>=1.42
+Requires-Dist: plotly<7.0,>=5.24
+Requires-Dist: altair<6.0,>=5.4
 Provides-Extra: dev
 Requires-Dist: pytest<9.0,>=8.0; extra == "dev"
 Requires-Dist: pytest-cov<7.0,>=5.0; extra == "dev"
