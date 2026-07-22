@@ -1,0 +1,14 @@
+{
+  "clean_rows": 1048567,
+  "clean_transaction_columns": 19,
+  "customer_feature_columns": 35,
+  "input_path": "/Users/pontusbjorkell/Desktop/Bank-Customer-Segmentation/data/raw/bank_transactions.csv",
+  "outputs": {
+    "customer_features": "/Users/pontusbjorkell/Desktop/Bank-Customer-Segmentation/data/processed/customer_features.csv",
+    "data_quality_report": "/Users/pontusbjorkell/Desktop/Bank-Customer-Segmentation/data/processed/data_quality_report.csv",
+    "transactions_clean": "/Users/pontusbjorkell/Desktop/Bank-Customer-Segmentation/data/processed/transactions_clean.csv"
+  },
+  "quality_warnings": 6,
+  "raw_rows": 1048567,
+  "unique_customers": 884265
+}

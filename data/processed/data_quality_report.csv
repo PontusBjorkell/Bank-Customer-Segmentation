@@ -1,0 +1,21 @@
+check,status,value,threshold,description
+raw_row_count,PASS,1048567,> 0,Number of raw transactions.
+clean_row_count,PASS,1048567,equal raw_row_count,Cleaning should not silently discard rows.
+duplicate_transaction_ids,PASS,0,0,Transaction identifiers should be unique.
+missing_customer_ids,PASS,0,0,Rows without customer identifiers cannot support segmentation.
+invalid_transaction_dates,PASS,0,0,Transaction dates should parse successfully.
+invalid_transaction_times,PASS,0,0,Transaction times should be valid HHMMSS values.
+missing_or_invalid_gender,WARN,1,reported,Missing and non-M/F values are standardized to null.
+missing_or_invalid_dob,WARN,61005,reported,"Includes missing, placeholder, and unparseable dates of birth."
+implausible_clean_age,PASS,0,0,Clean ages must lie between 18 and 100.
+negative_transaction_amounts,PASS,0,0,Negative amounts require domain investigation.
+negative_account_balances,PASS,0,reported,Negative balances are retained but explicitly reported.
+raw_missing__TransactionID,PASS,0,reported,Missing values in raw column TransactionID.
+raw_missing__CustomerID,PASS,0,reported,Missing values in raw column CustomerID.
+raw_missing__CustomerDOB,WARN,3397,reported,Missing values in raw column CustomerDOB.
+raw_missing__CustGender,WARN,1100,reported,Missing values in raw column CustGender.
+raw_missing__CustLocation,WARN,151,reported,Missing values in raw column CustLocation.
+raw_missing__CustAccountBalance,WARN,2369,reported,Missing values in raw column CustAccountBalance.
+raw_missing__TransactionDate,PASS,0,reported,Missing values in raw column TransactionDate.
+raw_missing__TransactionTime,PASS,0,reported,Missing values in raw column TransactionTime.
+raw_missing__TransactionAmount (INR),PASS,0,reported,Missing values in raw column TransactionAmount (INR).

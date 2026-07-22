@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/bank_customer_segmentation/__init__.py
+src/bank_customer_segmentation/config.py
+src/bank_customer_segmentation/data.py
+src/bank_customer_segmentation/features.py
+src/bank_customer_segmentation/utils.py
+src/bank_customer_segmentation/validation.py
+src/bank_customer_segmentation.egg-info/PKG-INFO
+src/bank_customer_segmentation.egg-info/SOURCES.txt
+src/bank_customer_segmentation.egg-info/dependency_links.txt
+src/bank_customer_segmentation.egg-info/requires.txt
+src/bank_customer_segmentation.egg-info/top_level.txt
+tests/test_data.py
+tests/test_features.py
+tests/test_validation.py
